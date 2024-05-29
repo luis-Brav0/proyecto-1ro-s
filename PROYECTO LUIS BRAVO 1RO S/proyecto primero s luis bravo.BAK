@@ -4,7 +4,6 @@ CLEAR
 @5, 10 SAY "1. SUMA DE DOS VALORES" 
 @6, 10 SAY "2. MULTIPLOS DE 10"
 @7,10 SAY "3. PROMEDIO DE 3 VALORES"
-@8,10 SAY "4. EDAD DE UN PACIENTE"
 
 OPCION=0
 
@@ -20,8 +19,4 @@ ENDIF
 
 IF OPCION=3
   DO "PROMEDIO DE 3 VALORES.PRG"
-ENDIF  
-
-IF OPCION=4 
-  DO "edad de un paciente y determinar si es mayor de edad.prg"
 ENDIF  
